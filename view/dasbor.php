@@ -31,6 +31,19 @@
                 <div class="card-body">
 
                     <p>SaCode CRUD Template <span class="badge bg-secondary">Versi 1.0</span> </p>
+                    
+                    <div class="row mb-3">
+                        <div class="col-4">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    Janzen
+                                </li>
+                                <li class="list-group-item">
+                                    ganti nama
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
                     <div class="row mb-3">
 

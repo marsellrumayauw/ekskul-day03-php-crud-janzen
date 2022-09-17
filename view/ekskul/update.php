@@ -24,7 +24,7 @@
 
                     <div class="card-header d-flex justify-content-between">
 
-                        <h3>Update <span class="fw-bold"><i class="fa-solid fa-graduation-cap"></i> Siswa</span></h3>
+                        <h3>Update <span class="fw-bold"><i class="fa-solid fa-graduation-cap"></i> Ekskul</span></h3>
 
                         <div>
                             <a href="?menu=ekskul&page=read" class="btn btn-dark"><i class="fa-solid fa-left-long me-1"></i> Kembali</a>

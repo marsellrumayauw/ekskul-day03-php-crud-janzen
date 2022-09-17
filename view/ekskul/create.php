@@ -12,31 +12,9 @@
                 <!-- .col start -->
                 <div class="col-lg-3">
 
-                    <div class="list-group">
-
-                        <a href="index.html" class="list-group-item list-group-item-action">
-                            <i class="fa-solid fa-house me-1"></i> Dasbor                            
-                        </a>
-
-                        <a href="siswa-read.html" class="list-group-item list-group-item-action d-flex justify-content-between active">
-                            <div>
-                                <i class="fa-solid fa-graduation-cap me-1"></i> Siswa
-                            </div>  
-                            <span class="badge bg-light text-primary">11</span>                        
-                        </a>
-
-                        <a href="tutor-read.html" class="list-group-item list-group-item-action d-flex justify-content-between">
-                            <div>
-                                <i class="fa-solid fa-user-tie me-1"></i> Tutor
-                            </div>  
-                            <span class="badge bg-primary">12</span>                          
-                        </a>
-
-                        <a href="login.html" class="list-group-item list-group-item-action">
-                            <i class="fa-solid fa-sign-out me-1"></i> Keluar                          
-                        </a>
-                        
-                    </div>
+                    <?php 
+                        include __DIR__ . '../../layout/menu.php';
+                    ?>
 
                 </div>
                 <!-- .col end -->
@@ -48,10 +26,10 @@
 
                         <div class="card-header d-flex justify-content-between">
 
-                            <h3>Create <span class="fw-bold"><i class="fa-solid fa-graduation-cap"></i> Siswa</span></h3>
+                            <h3>Create <span class="fw-bold"><i class="fa-solid fa-graduation-cap"></i> Ekskul</span></h3>
 
                             <div>
-                                <a href="./siswa-read.html" class="btn btn-dark"><i class="fa-solid fa-left-long me-1"></i> Kembali</a>
+                                <a href="?menu=ekskul&page=read" class="btn btn-dark"><i class="fa-solid fa-left-long me-1"></i> Kembali</a>
                             </div>
 
                         </div>

@@ -28,6 +28,11 @@
             include __DIR__ . './config/functions.php';
             include __DIR__ . './view/ekskul/create.php';
 
+        } elseif(isset($_GET['page']) && $_GET['page'] == 'delete') {
+
+            include __DIR__ . './config/functions.php';
+            include __DIR__ . './view/ekskul/delete.php';
+
         } else {
             include __DIR__ . './view/404.php';
         }

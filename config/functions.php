@@ -1,14 +1,18 @@
 <?php   
 
-    function siswa_create(){
-        // your codes here
+    function siswa_create_proses(){
+        
+        include __DIR__ . './connection.php';
+
+        header('location: ?page=siswa_create_proses');
+
     }
 
     function siswa_read() {
 
         include __DIR__ . './connection.php';   
         
-        $sql = "SELECT * FROM ekskul";
+        $sql = "SELECT * FROM ekskul ORDER BY id DESC";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {

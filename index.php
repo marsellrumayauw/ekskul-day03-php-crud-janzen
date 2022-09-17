@@ -23,6 +23,11 @@
             include __DIR__ . './config/functions.php';
             include __DIR__ . './view/ekskul/update.php';
 
+        } elseif(isset($_GET['page']) && $_GET['page'] == 'create') {
+
+            include __DIR__ . './config/functions.php';
+            include __DIR__ . './view/ekskul/create.php';
+
         } else {
             include __DIR__ . './view/404.php';
         }

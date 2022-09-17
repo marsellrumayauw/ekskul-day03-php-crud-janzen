@@ -25,11 +25,11 @@
 <body>
 
     <!-- HEADER START -->
-    <header class="text-center py-5 bg-dark text-light">
+    <header class="text-center py-5 bg-primary text-dark">
         <h1 class="fw-bolder">
-            SaCode CRUD Template <span class="badge bg-secondary">Versi 1.0</span>
+            SaCode PHP CRUD Template <span class="badge bg-secondary text-dark">Versi 1.0</span>
         </h1>
-        <p class="text-muted">
+        <p class="text-dark">
             <i class="fa-solid fa-plus-square"></i> Create, <i class="fa-solid fa-eye"></i> Read, <i class="fa-solid fa-pencil"></i> Update, <i class="fa-solid fa-trash"></i> Delete
         </p>
     </header>
